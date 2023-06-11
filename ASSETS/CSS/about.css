@@ -1,0 +1,229 @@
+.bienvenue{
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.navbar-brand{
+    color:black;
+    font-weight: 10px;
+}
+#offcanvasNavbarLabel{
+    color:white;
+    font-size: 10px;
+}
+.container-welcome{
+    margin-top:100px;
+    padding: 10px 20px 50px 20px;
+    border-radius: 10px;
+    background-color:rgba(240, 248, 255, 0.671);
+}
+.description{
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-align:center;
+    border-radius:30px ;
+    padding-top:50px;
+    background-color:#0d6dfd91;
+    height:190px; 
+    width: 900px; 
+    font-size:17px;
+    font-weight: 100%; 
+    color:aliceblue;
+}
+.texte{
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+.container-contact{
+    margin-top:100px;
+    padding: 10px 20px 50px 20px;
+    border-radius: 10px;
+    background-color:rgba(240, 248, 255, 0.815);
+}
+.titrecontact{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.textcontact{
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding: 10px 20px 50px 20px;
+    text-align: center;
+}
+#contact{
+    margin-left: 95px;
+    height: 50px;
+    width: 50px;
+}
+.titre6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-top: 100px;
+    margin: 0%;
+    padding-left: 200px;
+}
+
+/* icon facebook */
+.containerfb{
+    position: absolute;
+    border-radius: 50px;
+    background-color:#3b5998;
+    height: 50px;
+    width: 200px;
+}
+
+/* icon whatsapp  */
+.containerwhat{
+    margin-left: 350px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #008000;
+    height: 60px;
+    width: 200px;
+}#whatsapp{
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+
+/* icone instagram */
+
+.containerinsta{
+    border-radius: 50px;
+    margin-top: 150px;
+    margin-left: 900px;
+    position: absolute;
+    background-color: aliceblue;
+    height: 60px;
+    width: 200px;
+}
+#instagram{
+    padding-top: 3%;
+    padding-left: 8%;
+}
+
+/* icone telegram */
+.containertelegrame{
+    border-radius: 50px;
+    margin-top: 150px;
+    margin-left: 900px;
+    position: absolute;
+    background-color: #229ED9;
+    height: 60px;
+    width: 210px;
+}
+#telegram{
+    padding-top: 3%;
+    padding-left: 10%;
+}
+#tele{
+    margin: 0%;
+    font-size: 25px;
+    padding-left: 39%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -21%;
+    position:absolute;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* icone linkdine */
+
+.containerlinkedin{
+
+    border-radius: 50px;
+    margin-top: 150px;
+    margin-left: 1250px;
+    position: absolute;
+    background-color: #0e76a8;
+    height: 60px;
+    width: 210px;
+}
+#linkedin{
+    padding-left: 16%;
+    padding-top: 5%;
+}
+
+/* icone telephone */
+.containertelephone{
+    text-decoration: none;
+    margin-top: 350px;
+    margin-left: 100px;
+    border-radius: 50px;
+    position: absolute;
+    background-color: #38dc54;
+    height: 58px;
+    width: 200px;
+}
+#apple-phone{
+    padding-top: 2.5%;
+    padding-left: 8%;
+}
+#telephone{
+    letter-spacing: 1px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    margin-top: -43px;
+    padding-left: 34%;
+}
+
+/* icon snapshat */
+.containersnap{
+    text-decoration: none;
+    margin-top: 350px;
+    margin-left: 500px;
+    border-radius: 50px;
+    position: absolute;
+    background-color: #fffb00;
+    height: 58px;
+    width: 200px;
+}
+#snapchat{
+    padding-top: 2.5%;
+    padding-left: 8%;
+}
+#snap{
+    letter-spacing: 1px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 22px;
+    color:black;
+    text-decoration: none;
+    margin-top: -43px;
+    padding-left: 34%;
+}
+ 
+/* icone gmail */
+
+.containergmail{
+    text-decoration: none;
+    margin-top: 350px;
+    margin-left: 910px;
+    border-radius: 50px;
+    position: absolute;
+    background-color:aliceblue;
+    height: 58px;
+    width: 210px;
+}
+
+#gmail{
+    padding-top: 5%;
+    padding-left: 8%;
+}
+#mail{
+    letter-spacing: 1px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 22px;
+    color:black;
+    text-decoration: none;
+    margin-top: -35px;
+    padding-left: 45%;
+}
