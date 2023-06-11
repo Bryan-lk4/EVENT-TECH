@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="ASSETS/CSS/signup.css">
+    <link rel="stylesheet" href="ASSETS/CSS/bootstrap.css">
+    <title>Sign_up</title>
 </head>
+
 <body>
+    <nav class="navbar" style="background-color: #38da46cc;">
+        <!-- Navbar content -->
+        <div class="container-fluid">
+            <a class="navbar-brand " href="index.html">EVENTS-TECH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-primary">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">EVENTS-TECH</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <h1 class="text-center">BIENVENUE À EVENTS-TECH</h1>
     <p class="text">Vous chercher à organiser une fete ou un évennement inoubliable? Ne cherchez plus! En créent un
         compte ,vous pourrez accéder a des outils personnalisés pour rechercher des salles , gérer vos reservations et
         discuter avec notre equipe d'expert en evennements. Vous pourrer également béneficier d'offres exclusives et de
@@ -13,7 +52,7 @@
         que nous offrons </p>
     <div class="form">
         <form>
-            <fieldset  class="formulaire">
+            <fieldset class="formulaire">
                 <h1 class="text-center">Sign up</h1>
                 <div class="nom">
                     <label for="nom">FirstName</label><br>
@@ -46,5 +85,11 @@
             </fieldset>
         </form>
     </div>
+    <footer>
+        
+    </footer>
+    <script src="ASSETS/JS/jquery.js"></script>
+    <script src="ASSETS/JS/bootstrap.js"></script>
 </body>
+
 </html>
