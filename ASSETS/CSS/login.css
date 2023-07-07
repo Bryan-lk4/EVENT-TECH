@@ -1,4 +1,6 @@
 body {
+    background-image: url("/ASSETS/images/ovan.jpg");
+    background-size: 1500px;
     background-color: rgba(142, 161, 173, 0.781);
 }
 
@@ -15,20 +17,52 @@ input {
     padding-left: 2px;
     padding: 6px 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
-button{
+}
+input:hover{
+    font-size: 16px;
+    padding-right: 80px;
+    box-shadow:  5px 1px 5px rgba(0, 0, 0, 0.767);
+}
+.button{
     border-radius: 15px;
     position: absolute;
     padding: 6px 88px;
     font-weight: 800;
-    margin-right: 10px;
+    margin-left: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     color: white;
 }
-
-#button:hover {
+.navbar-brand{
+    padding-top: -10em;
+    padding-left: 5em;
+    font-weight: 500;
+    padding-right: 35em;
+}
+.nav-item{
+    font-weight: 500;
+    font-size: 16px;
+}
+.container-fluid{
+    background-color: #368da3ee;
+    height: 50px;
+    margin-top: -0.5em;
+    text-align: right;
+    box-shadow: 15px 1px 20px rgba(0, 0, 0, 0.562);
+    .nav-item:hover{
+        font-weight: 700;
+        text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.562);
+        font-size: 15px;
+    }
+}
+.imglogo{
+    background-color: rgba(240, 248, 255, 0.178);
+    margin-top: -1em;
+    height:95px; 
+    width: 200px;
+}
+.button:hover {
     padding: 7px 89px;
     font-weight: 800;
     box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.616);
@@ -42,16 +76,18 @@ button{
 }
 
 .text {
-    font-size: 20px;
-    font-weight: 700;
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
     position: absolute;
     text-align: center;
-    margin-top: -14em;
-    margin-left: 550px;
+    margin-top: -13em;
+    margin-left: 600px;
     width: 600px;
 }
 
 form {
+    margin-left: 70px;
     margin-right: 300px;
     display: block;
     text-decoration: none;
@@ -59,19 +95,29 @@ form {
     border-radius: 20px;
     color: black;
     text-decoration: none;
-    margin-top: 110px;
+    margin-top: 5%;
 }
 
 
 .signup {
     color: black;
     font-weight: 500;
+    padding-left: 70px; 
     padding-top: 90px;
     text-align: left;
 }
-
+.navbar-toggler{
+    position: fixed;
+}
+.navbar-toggler-icon{
+    height: 25px;
+}
 @media all and (max-width:800px) {
-    .formulaire {
-        margin-left: 1.9em;
+    .navbar-brand{
+        padding-left: 15em;
+    }
+    .nav-item{
+        padding-left: 10%;
+        text-align:left;
     }
 }

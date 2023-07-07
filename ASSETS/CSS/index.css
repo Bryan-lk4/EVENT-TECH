@@ -1,35 +1,116 @@
-.hero {
-    background: url('ASSETS/images/event-listing-placeholder.png');
-    height: calc(120vh - 10rem);
-    background-size: cover;
+body{
+    color: black;
+    background-color: rgba(142, 161, 173, 0.24);
+}
+nav{
+    background-color: #368da3ee;
+    height: 50px;
+    box-shadow: 15px 5px 20px rgba(0, 0, 0, 0.555);
+}
+.navbar-brand{
+    padding-left: 3em;
+}
+.recherche{
+    background-color:white;
+    position:absolute;
+    margin-top: 80px;
+    margin-left: 450px;
+    border-radius: 500px;
+    padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    height: 1px;
+    width: 350px;
 }
-
-.suite {
-    border-radius: 20px;
-    margin-top: 40%;
-    background-color: black;
-    height: 500px;
+.recherche:hover{
+    font-size: 17px;
+    box-shadow: 2px 5px 50px rgba(0, 0, 0, 0.466);
 }
-
+input{
+    position: absolute;
+    margin-left: 50px;
+    width: 260px;
+    text-align: center;
+    border: 0;
+}
+.btn{
+    position: absolute;
+    height: 25px;
+    width: 50px;
+    padding: 0%;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 50px;
+    background-color: rgba(142, 161, 173, 0.781);
+    margin-left: 350px;
+}
+#navbarSupportedContent{
+    padding-left: 38em;
+    font-weight: 600;
+    .nav-item:hover{
+        text-shadow: 1px 10px 5px rgba(0, 0, 0, 0.356);
+        font-size: 15px;
+    }
+}
 .fin {
-
     margin-top: 100px;
-    height: 50px;
-    background-color: #0d6efd;
+    background-color: #368da3ee;
+    height: 40px;
 }
-
-@media all and (min-width<500px) {}
+.logo{
+    position: absolute;
+    margin-top: 10em;
+    margin-left: 11em;
+}
+.nom-select{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: -120em;
+    margin-left: 50px;
+    color: black;
+}
 
 .description {
+    box-shadow: 2px 5px 50px rgba(0, 0, 0, 0.726);
+    color: black;
+    font-weight: 500;
     text-align: center;
     border-radius: 30px;
-    padding-top: 50px;
-    background-color: rgba(240, 248, 255, 0.644);
-    height: 190px;
+    padding: 50px 50px 50px 315px;
+    margin-top: 11em;
+    margin-left:12em;
+    background-color:rgb(255, 255, 255);
+    height: 250px;
     width: 900px;
     font-size: 17px;
-    color: black;
+}
+
+@media all and (max-width:860px) {
+    .hero{
+       background-image: url("ASSETS/images/event-listing-placeholder\ \(2\).png"); 
+       background-size: cover;
+    }
+    #navbarSupportedContent{
+        padding-left: 37em;
+        font-weight: 600;
+        .nav-item:hover{
+            text-shadow: 1px 10px 5px rgba(0, 0, 0, 0.356);
+            font-size: 19px;
+        }
+    }
+    .recherche{
+        margin-left: 8.5em;
+    }
+    .logo{
+        margin-left: 0.1em;
+    }
+    .description{
+        padding-top: 30px;
+        font-size: 14px;
+        width: 650px;
+        margin-left: 5px;
+    }
 }

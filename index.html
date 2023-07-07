@@ -14,13 +14,8 @@
 
 <body>
  <!-- navbar bleu responsive avec logo a gauche et bar de recherche à droite -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar  navbar-expand-lg ">
         <div class="container-fluid ">
-            <!-- LOGO -->
-            <a class="navbar-brand" href="index.html">
-                <img src="ASSETS/images/E-removebg-preview.png" alt="LOGO" width="95px" height="70"
-                    style="margin-top:-5%;">
-            </a>
             <!-- nom  -->
             <a class="navbar-brand" href="index.html"> <strong>EVENTS-TECH</strong></a>         
             <!-- boutton de responsiviter -->
@@ -64,29 +59,26 @@
                         </ul>
 
                 </ul>
-                <!-- bar de recherche -->
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
 
  <!-- le header avec le nom et une petite descriptions -->
+ <form class="recherche">
+ <svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 96 960 960" width="48" id="navlogo"><path d="M770.891 916.826 531.326 677.5q-29.761 25.264-69.6 39.415-39.84 14.15-85.161 14.15-109.835 0-185.95-76.195Q114.5 578.674 114.5 471t76.196-183.87q76.195-76.195 184.369-76.195t183.87 76.195q75.695 76.196 75.695 184.02 0 43.328-13.641 82.97-13.641 39.641-40.924 74.402L821.63 868.087q10.196 9.877 10.196 23.83 0 13.953-11.109 24.822-10.351 10.522-25.213 10.522t-24.613-10.435ZM375.65 662.935q79.73 0 135.29-56.245Q566.5 550.446 566.5 471t-55.595-135.69q-55.595-56.245-135.255-56.245-80.494 0-136.757 56.245Q182.63 391.554 182.63 471t56.228 135.69q56.227 56.245 136.792 56.245Z"/></svg>
+     <input type="text"  placeholder="recherche ta salle">
+     <input class="btn btn-outline" type="submit" value="OK"><i class="fafa-seach"></i></input>
+ </form>
     <header>
         <section class="hero" style="
           background: url('ASSETS/images/event-listing-placeholder.png');
-          height: calc(120vh - 10rem);
+          height: calc(130vh - 10rem);
           background-size: cover;
           display: flex;
           align-items: center;
-          justify-content: center;
           ">
-            <h1 style="padding-right:5em;"><a style="background-color: rgba(240, 248, 255, 0.396);" class="navbar-brand"
-                    href="#">
-                    EVENTS-TECH
-                </a></h1>
+            <a class="logo" href="index.html"><img src="ASSETS/images/E-removebg-preview.png" alt="logo-ET" srcset="" height="350px">
+            </a>
             <p class="description">"Simplify your party venue search with EVENTS-TECH. We are a dedicated company
                 providing you
                 with the best venues for your events. Whether it's an intimate birthday party or a lavish wedding, our
@@ -152,8 +144,7 @@
     </div>
     <!-- div..... -->
     <div class="container">
-
-
+        
     </div>
     <!-- foot de la page -->
     <footer class="fin">
