@@ -1,59 +1,78 @@
 body {
     background-image: url("/ASSETS/images/ovan.jpg");
-    background-size: 1500px;
+    background-size: 1400px;
+    background-repeat: no-repeat;
     background-color: rgba(142, 161, 173, 0.781);
 }
-
+h1{
+    margin-top: -200px;
+    padding-left: 20px;
+    font-weight: 900;
+    padding-bottom: 140px;
+    color: aliceblue;
+    text-align: left;
+    position:relative;
+    font-size: 90px;
+}
 label {
-    margin-left: 100px;
     font-weight: 500;
     letter-spacing: 2px;
     padding-bottom: 5px;
 }
 
 input {
+    font-size: 25px;
+    position: relative;
     border-radius: 15px;
-    padding-right: 70px;
-    padding-left: 2px;
-    padding: 6px 40px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 input:hover{
-    font-size: 16px;
+    font-size: 20px;
     padding-right: 80px;
     box-shadow:  5px 1px 5px rgba(0, 0, 0, 0.767);
 }
 .button{
+    font-size: 25px;
     border-radius: 15px;
     position: absolute;
     padding: 6px 88px;
     font-weight: 800;
-    margin-left: 20px;
+    margin-left: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     color: white;
 }
+.button:hover {
+    padding: 7px 89px;
+    font-weight: 800;
+    box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.616);
+    font-size: 24px;
+    text-decoration: none;
+}
 .navbar-brand{
-    padding-top: -10em;
+    font-size: 22px;
+    margin-top: -6px;
     padding-left: 5em;
     font-weight: 500;
     padding-right: 35em;
 }
 .nav-item{
     font-weight: 500;
-    font-size: 16px;
+    font-size: 19px;
 }
 .container-fluid{
-    background-color: #368da3ee;
-    height: 50px;
+    background-color:rgba(142, 161, 173, 0.733);
+    height: 60px;
     margin-top: -0.5em;
     text-align: right;
     box-shadow: 15px 1px 20px rgba(0, 0, 0, 0.562);
     .nav-item:hover{
         font-weight: 700;
         text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.562);
-        font-size: 15px;
+        font-size: 19px;
     }
 }
 .imglogo{
@@ -62,32 +81,25 @@ input:hover{
     height:95px; 
     width: 200px;
 }
-.button:hover {
-    padding: 7px 89px;
-    font-weight: 800;
-    box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.616);
-    font-size: 16.5px;
-    text-decoration: none;
 
-}
 
 .container {
-    margin-left: 100px;
+    margin-left: 90px;
 }
 
 .text {
-    color: black;
-    font-size: 22px;
+    color: white;
+    font-size: 30px;
     font-weight: 900;
     position: absolute;
     text-align: center;
-    margin-top: -13em;
-    margin-left: 600px;
-    width: 600px;
+    margin-top: -12em;
+    margin-left: 490px;
+    width: 750px;
 }
 
 form {
-    margin-left: 70px;
+    margin-left: 10px;
     margin-right: 300px;
     display: block;
     text-decoration: none;
@@ -95,7 +107,7 @@ form {
     border-radius: 20px;
     color: black;
     text-decoration: none;
-    margin-top: 5%;
+    margin-top: 16em;
 }
 
 
@@ -112,6 +124,12 @@ form {
 .navbar-toggler-icon{
     height: 25px;
 }
+#mavideo {
+    width: 1535px;
+    margin-top: -4em;
+    position: absolute;
+    margin-left: -7%;
+  }
 @media all and (max-width:800px) {
     .navbar-brand{
         padding-left: 15em;
